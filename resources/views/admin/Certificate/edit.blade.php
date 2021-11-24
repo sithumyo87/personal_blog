@@ -2,9 +2,9 @@
 @section('title','Coding Skill')
 @section('content')
     <div class="card mt-5 p-4">
-        <div class="card-header bg-primary text-white"><h4>Edit Skill Create Form</h4></div>
+        <div class="card-header bg-primary text-white"><h4>Edit Certificate Form</h4></div>
         <div class="card-body">
-            <form action="{{route('codingskill.update',$codingSkill->id)}}" method="post">
+            <form action="{{route('certificate.update',$certificate->id)}}" method="post" enctype="multipart/form-data">
                 @method('PUT')
                 @csrf
                 @foreach($errors->all() as $error)
@@ -20,12 +20,15 @@
                     </div>
                 @endif
                 <div class="form-group ">
-                    <label for="name">Programming Name</label>
-                    <input type="text" placeholder="Enter Programming Name" name="name" class="form-control" value={{$codingSkill->name}}>
+                    <label for="name">Other Knowledge</label>
+                    <input type="text" placeholder="Enter your Other Knowledge" name="name" class="form-control" value="{{$certificate->name}}">
                 </div>
-                <div class="form-group mt-3">
-                    <label for="name">Percentage</label>
-                    <input type="number" placeholder="Enter Your Skill Percentage" name="percentage" class="form-control" value={{$codingSkill->percentage}}>
+                <div class="form-group ">
+                    <label for="name">Image</label>
+                    <input type="file"  name="image" class="form-control" >
+                </div>
+                <div>
+                    <img src="{{Storage::url($certificate->image)}}" width="140px" alt="" class="mt-3">
                 </div>
                 <button class="btn btn-primary mt-3"><i class="fas fa-paper-plane">Updated</i></button>
             </form>

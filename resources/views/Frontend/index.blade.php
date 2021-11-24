@@ -615,45 +615,22 @@
 
                                 <div class="skills-info skills-second-style">
                                     <!-- Skill 1 -->
-                                    <div class="skill clearfix">
-                                        <h4>Web Design</h4>
-                                        <div class="skill-value">95%</div>
-                                    </div>
-                                    <div class="skill-container skill-1">
-                                        <div class="skill-percentage"></div>
-                                    </div>
-                                    <!-- End of Skill 1 -->
-
-                                    <!-- Skill 2 -->
-                                    <div class="skill clearfix">
-                                        <h4>Print Design</h4>
-                                        <div class="skill-value">65%</div>
-                                    </div>
-                                    <div class="skill-container skill-2">
-                                        <div class="skill-percentage"></div>
-                                    </div>
-                                    <!-- End of Skill 2 -->
-
-                                    <!-- Skill 3 -->
-                                    <div class="skill clearfix">
-                                        <h4>Logo Design</h4>
-                                        <div class="skill-value">80%</div>
-                                    </div>
-                                    <div class="skill-container skill-3">
-                                        <div class="skill-percentage"></div>
-                                    </div>
-                                    <!-- End of Skill 3 -->
-
-                                    <!-- Skill 4 -->
-                                    <div class="skill clearfix">
-                                        <h4>Graphic Design</h4>
-                                        <div class="skill-value">90%</div>
-                                    </div>
-                                    <div class="skill-container skill-4">
-                                        <div class="skill-percentage"></div>
-                                    </div>
-                                    <!-- End of Skill 4 -->
-
+                                    @foreach($designSkills as $d)
+                                        <div class="skill clearfix">
+                                            <h4>{{$d->name}}</h4>
+                                            <div class="skill-value">{{$d->percentage}}%</div>
+                                        </div>
+                                        <div class="progress skill-container" style="height: 10px" m>
+                                            <div
+                                                class="progress-bar skill-percentage"
+                                                role="progressbar"
+                                                style="width: {{$d->percentage}}%;"
+                                                aria-valuenow="25"
+                                                aria-valuemin="0"
+                                                aria-valuemax="100"
+                                            ></div>
+                                        </div>
+                                @endforeach
                                 </div>
                                 <!-- End of Design Skills -->
 
@@ -681,13 +658,8 @@
                                             aria-valuemax="100"
                                         ></div>
                                     </div>
-{{--                                        <div class="skill-container skill-5">--}}
-{{--                                            <div class="" style="width: {{$c->percentage}}%"></div>--}}
-{{--                                        </div>--}}
                                     @endforeach
 
-
-{{--                                </div>--}}
                                 <!-- End of Coding Skills -->
 
                                 <div class="white-space-10"></div>
@@ -698,15 +670,9 @@
                                 </div>
 
                                 <ul class="knowledges">
-                                    <li>Marketing</li>
-                                    <li>Print</li>
-                                    <li>Digital Design</li>
-                                    <li>Social Media</li>
-                                    <li>Time Management</li>
-                                    <li>Communication</li>
-                                    <li>Problem-Solving</li>
-                                    <li>Social Networking</li>
-                                    <li>Flexibility</li>
+                                    @foreach($knowledges as $k)
+                                    <li>{{$k->name}}</li>
+                                    @endforeach
                                 </ul>
                                 <!-- End of Knowledges -->
                             </div>
@@ -726,15 +692,16 @@
 
                         <div class="row">
                             <!-- Certificate 1 -->
+                            @foreach($certificates as $c)
                             <div class="col-xs-12 col-sm-6">
                                 <div class="certificate-item clearfix">
                                     <div class="certi-logo">
-                                        <img src="img/clients/client-1.png" alt="logo">
+                                        <img src="{{Storage::url($c->image)}}" alt="logo">
                                     </div>
 
                                     <div class="certi-content">
                                         <div class="certi-title">
-                                            <h4>Psyhology of Intertnation Design</h4>
+                                            <h4>{{$c->name}}</h4>
                                         </div>
                                         <div class="certi-id">
                                             <span>Membership ID: XXXX</span>
@@ -748,32 +715,8 @@
                                     </div>
                                 </div>
                             </div>
+                        @endforeach
                             <!-- End of Certificate 1 -->
-
-                            <!-- Certificate 2 -->
-                            <div class="col-xs-12 col-sm-6">
-                                <div class="certificate-item clearfix">
-                                    <div class="certi-logo">
-                                        <img src="img/clients/client-1.png" alt="logo">
-                                    </div>
-
-                                    <div class="certi-content">
-                                        <div class="certi-title">
-                                            <h4>Psyhology of Intertnation Design</h4>
-                                        </div>
-                                        <div class="certi-id">
-                                            <span>Membership ID: XXXX</span>
-                                        </div>
-                                        <div class="certi-date">
-                                            <span>19 April 2018</span>
-                                        </div>
-                                        <div class="certi-company">
-                                            <span></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End of Certificate 2 -->
 
                         </div>
                         <!-- End of Certificates -->

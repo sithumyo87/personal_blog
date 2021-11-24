@@ -3,7 +3,7 @@
 @section('content')
     <div class="card mt-5 p-4">
         <div class="card-header bg-primary text-white">
-            <h4>Coding Skill List</h4>
+            <h4>Design Skill List</h4>
         </div>
         <div class="card-body">
             <div class="d-flex justify-content-end mb-3">
@@ -40,16 +40,16 @@
                </tr>
                </thead>
                <tbody>
-               @foreach($codingskills as $codingskill)
+               @foreach($designskills as $designskill)
                <tr>
-                   <td>{{$codingskill->id}}</td>
-                   <td>{{$codingskill->name}} </td>
-                   <td>{{$codingskill->percentage}}%</td>
+                   <td>{{$designskill->id}}</td>
+                   <td>{{$designskill->name}} </td>
+                   <td>{{$designskill->percentage}}%</td>
                    <td>
-                       <form action="{{route('codingskill.destroy',$codingskill->id)}}" method="post">
+                       <form action="{{route('designskill.destroy',$designskill->id)}}" method="post">
                            @csrf
                            @method('DELETE')
-                       <a href="{{route('codingskill.edit',$codingskill->id)}}" class="btn btn-sm btn-success"></i>Edit</a>
+                       <a href="{{route('designskill.edit',$designskill->id)}}" class="btn btn-sm btn-success" ><i class="fas fa-edit"></i>Edit</a>
                            <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure to delete?')"><i class="fas fa-trash-alt"></i> Delete</button>
                        </form>
                    </td>
@@ -58,7 +58,7 @@
                </tbody>
            </table>
             <div class="d-flex ">
-                {!! $codingskills->links() !!}
+                {!! $designskills->links() !!}
             </div>
         </div>
     </div>

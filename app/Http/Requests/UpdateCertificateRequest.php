@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class DesignSkillRequest extends FormRequest
+class UpdateCertificateRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -25,7 +25,6 @@ class DesignSkillRequest extends FormRequest
     {
         return [
             'name'=>'required',
-            'percentage'=>'required|numeric|max:100'
         ];
     }
 }

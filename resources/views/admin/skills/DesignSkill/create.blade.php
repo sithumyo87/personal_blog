@@ -2,9 +2,9 @@
 @section('title','Coding Skill')
 @section('content')
     <div class="card mt-5 p-4">
-        <div class="card-header bg-primary text-white"><h4>Coding Skill Create Form</h4></div>
+        <div class="card-header bg-primary text-white"><h4>Desing Skill Create Form</h4></div>
         <div class="card-body">
-            <form action="{{route('codingskill.store')}}" method="post">
+            <form action="{{route('designskill.store')}}" method="post">
                 @csrf
                 @foreach($errors->all() as $error)
                     <div class="alert alert-dismissible fade show alert-danger" role="alert"  id="customxD">
@@ -13,8 +13,8 @@
                     </div>
                 @endforeach
                 <div class="form-group ">
-                    <label for="name">Programming Name</label>
-                    <input type="text" placeholder="Enter Programming Name" name="name" class="form-control">
+                    <label for="name">Design Tool Name</label>
+                    <input type="text" placeholder="Enter Design Tool Name" name="name" class="form-control">
                 </div>
                 <div class="form-group mt-3">
                     <label for="name">Percentage</label>
