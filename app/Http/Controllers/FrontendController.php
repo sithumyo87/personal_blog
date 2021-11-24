@@ -2,11 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\CodingSkill;
 use Illuminate\Http\Request;
 
 class FrontendController extends Controller
 {
     public  function  index(){
-        return view('Frontend.index');
+        $codingSkills = CodingSkill::all();
+
+        return view('Frontend.index')->with(compact('codingSkills'));
     }
 }

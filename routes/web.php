@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Admin\CodingSkillController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,5 +17,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [\App\Http\Controllers\FrontendController::class,'index']);
 
-//backend
-Route::get('/admin',[\App\Http\Controllers\DashboardController::class,'index']);
+
+//Skills
+Route::resource('codingskill', CodingSkillController::class);
