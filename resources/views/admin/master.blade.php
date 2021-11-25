@@ -34,7 +34,8 @@
                     <a href="{{route('designskill.index')}}"><button class="form-control mt-2 p-2 ">Design Skill</button></a>
                     <a href="{{route('codingskill.index')}}"><button class="form-control mt-2 p-2 ">Coding Skill</button></a>
                     <a href="{{route('knowledge.index')}}"><button class="form-control mt-2 p-2 ">Knowledge</button></a>
-                    <a href=""><button class="form-control mt-2 p-2 ">Resume</button></a>
+                    <a href="{{route('blog.index')}}"><button class="form-control mt-2 p-2 ">Blog</button></a>
+                    <a href="{{route('category.index')}}"><button class="form-control mt-2 p-2 ">Category</button></a>
                     <a href=""><button class="form-control mt-2 p-2 ">Book_Library</button></a>
                 </div>
             </div>

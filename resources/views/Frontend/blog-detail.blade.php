@@ -112,14 +112,14 @@
 
             <div class="social-links">
                 <ul>
-                    <li><a href="https://www.linkedin.com/in/si-thu-myo-11b940211/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                    <li><a href="https://www.facebook.com/profile.php?id=100010587223347" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="https://github.com/sithumyo87" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
                 </ul>
             </div>
 
             <div class="header-buttons">
-                <a href="img/cvpdf.pdf" target="_blank" class="btn btn-primary" download>Download CV</a>
+                <a href="#" target="_blank" class="btn btn-primary">Download CV</a>
             </div>
 
             <div class="copyrights">© 2020 All rights reserved.</div>
@@ -177,7 +177,7 @@
                         <!-- Personal Information -->
                         <div class="row">
                             <div class="col-xs-12 col-sm-7">
-                                <p>I am Si Thu Myo and I attended Computer Science Major From Dagon University. I learned web development since high school and I really interested in software engineering. I also worked as a assistant executive in yangon handmade creations and I got a lot of experiences within one year. I also got internship at Thuma Organization and served as a web developer over 3 months. </p>
+                                <p>Proin volutpat mauris ac pellentesque pharetra. Suspendisse congue elit vel odio suscipit, sit amet tempor nisl imperdiet. Quisque ex justo, faucibus ut mi in, condimentum finibus dolor. Aliquam vitae hendrerit dolor, eget imperdiet mauris. Maecenas et ante id ipsum condimentum dictum et vel massa. Ut in imperdiet dolor, vel consectetur dui.</p>
                             </div>
 
                             <div class="col-xs-12 col-sm-5">
@@ -185,22 +185,22 @@
                                     <ul>
                                         <li>
                                             <span class="title">Age</span>
-                                            <span class="value">19</span>
+                                            <span class="value">32</span>
                                         </li>
 
                                         <li>
                                             <span class="title">Residence</span>
-                                            <span class="value">Burma, Myanmar</span>
+                                            <span class="value">USA</span>
                                         </li>
 
                                         <li>
                                             <span class="title">Address</span>
-                                            <span class="value">No;(528), Innwa 4 Street, 6 block, South Okkalapa Tsp, Yangon, Myanmar</span>
+                                            <span class="value">88 Some Street, Some Town</span>
                                         </li>
 
                                         <li>
                                             <span class="title">e-mail</span>
-                                            <span class="value">sithumyo87@gmail.com</span>
+                                            <span class="value"><a href="https://lmpixels.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="157078747c7955706d74786579703b767a78">[email&#160;protected]</a></span>
                                         </li>
 
                                         <li>
@@ -230,19 +230,19 @@
                                     <div class="info-list-w-icon">
                                         <div class="info-block-w-icon">
                                             <div class="ci-icon">
-                                                <i class="lnr lnr-flag"></i>
+                                                <i class="lnr lnr-store"></i>
                                             </div>
                                             <div class="ci-text">
-                                                <h4>Management</h4>
-                                                <p>Implemented solutions to improve business efficiency, performance, cost control, and professionalization of employee base</p>
+                                                <h4>Ecommerce</h4>
+                                                <p>Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales.</p>
                                             </div>
                                         </div>
                                         <div class="info-block-w-icon">
                                             <div class="ci-icon">
                                                 <i class="lnr lnr-laptop-phone"></i>
                                             </div><div class="ci-text">
-                                                <h4>Web Development</h4>
-                                                <p>I do design and create websites. I have responsible for the look of the site.I also responsible for the site's technical aspects, such as its performance and capacity, which are measures of a website's speed and how much traffic the site can handle.</p>
+                                                <h4>Web Design</h4>
+                                                <p>Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -257,11 +257,18 @@
                                                 <i class="lnr lnr-pencil"></i>
                                             </div>
                                             <div class="ci-text">
-                                                <h4>Freelancer</h4>
-                                                <p>I did freelance in web development fields and I did website for education, portfolio, and other ecommerce.</p>
+                                                <h4>Copywriting</h4>
+                                                <p>Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales.</p>
                                             </div>
                                         </div>
-
+                                        <div class="info-block-w-icon">
+                                            <div class="ci-icon">
+                                                <i class="lnr lnr-flag"></i>
+                                            </div><div class="ci-text">
+                                                <h4>Management</h4>
+                                                <p>Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -269,6 +276,206 @@
                         <!-- End of Services -->
 
                         <div class="white-space-30"></div>
+
+                        <!-- Testimonials -->
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12">
+                                <div class="block-title">
+                                    <h3>Testimonials</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12">
+                                <div class="testimonials owl-carousel">
+                                    <!-- Testimonial 1 -->
+                                    <div class="testimonial">
+                                        <div class="img">
+                                            <img src="img/testimonials/testimonial-1.jpg" alt="Alex Smith">
+                                        </div>
+                                        <div class="text">
+                                            <p>Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor. Nulla condimentum nunc sit amet urna tempus finibus. Duis mollis leo id ligula pellentesque, at vehicula dui ultrices.</p>
+                                        </div>
+
+                                        <div class="author-info">
+                                            <h4 class="author">Julia Hickman</h4>
+                                            <h5 class="company">Omni Source</h5>
+                                            <div class="icon">
+                                                <i class="fas fa-quote-right"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End of Testimonial 1 -->
+
+                                    <!-- Testimonial 2 -->
+                                    <div class="testimonial">
+                                        <div class="img">
+                                            <img src="img/testimonials/testimonial-2.jpg" alt="Alex Smith">
+                                        </div>
+                                        <div class="text">
+                                            <p>Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor. Nulla condimentum nunc sit amet urna tempus finibus. Duis mollis leo id ligula pellentesque, at vehicula dui ultrices.</p>
+                                        </div>
+
+                                        <div class="author-info">
+                                            <h4 class="author">Robert Watkins</h4>
+                                            <h5 class="company">Endicott Shoes</h5>
+                                            <div class="icon">
+                                                <i class="fas fa-quote-right"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End of Testimonial 2 -->
+
+                                    <!-- Testimonial 3 -->
+                                    <div class="testimonial">
+                                        <div class="img">
+                                            <img src="img/testimonials/testimonial-3.jpg" alt="Alex Smith">
+                                        </div>
+                                        <div class="text">
+                                            <p>Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor. Nulla condimentum nunc sit amet urna tempus finibus. Duis mollis leo id ligula pellentesque, at vehicula dui ultrices.</p>
+                                        </div>
+
+                                        <div class="author-info">
+                                            <h4 class="author">Kristin Carroll</h4>
+                                            <h5 class="company">Helping Hand</h5>
+                                            <div class="icon">
+                                                <i class="fas fa-quote-right"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End of Testimonial 3 -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Testimonials -->
+
+                        <div class="white-space-50"></div>
+
+                        <!-- Clients -->
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12">
+                                <div class="block-title">
+                                    <h3>Cilents</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12">
+                                <div class="clients owl-carousel">
+
+                                    <div class="client-block">
+                                        <a href="#" target="_blank" title="Logo">
+                                            <img src="img/clients/client-1.png" alt="Logo">
+                                        </a>
+                                    </div>
+
+                                    <div class="client-block">
+                                        <a href="#" target="_blank" title="Logo">
+                                            <img src="img/clients/client-2.png" alt="Logo">
+                                        </a>
+                                    </div>
+
+                                    <div class="client-block">
+                                        <a href="#" target="_blank" title="Logo">
+                                            <img src="img/clients/client-3.png" alt="Logo">
+                                        </a>
+                                    </div>
+
+                                    <div class="client-block">
+                                        <a href="#" target="_blank" title="Logo">
+                                            <img src="img/clients/client-4.png" alt="Logo">
+                                        </a>
+                                    </div>
+
+                                    <div class="client-block">
+                                        <a href="#" target="_blank" title="Logo">
+                                            <img src="img/clients/client-5.png" alt="Logo">
+                                        </a>
+                                    </div>
+
+                                    <div class="client-block">
+                                        <a href="#" target="_blank" title="Logo">
+                                            <img src="img/clients/client-6.png" alt="Logo">
+                                        </a>
+                                    </div>
+
+                                    <div class="client-block">
+                                        <a href="#" target="_blank" title="Logo">
+                                            <img src="img/clients/client-7.png" alt="Logo">
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Clients -->
+
+                        <div class="white-space-50"></div>
+
+                        <!-- Pricing -->
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12">
+
+                                <div class="block-title">
+                                    <h3>Pricing</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class=" col-xs-12 col-sm-12 ">
+                                <div class="fw-pricing clearfix row">
+
+                                    <div class="fw-package-wrap col-md-6 ">
+                                        <div class="fw-package">
+                                            <div class="fw-heading-row">
+                                                <span>Silver</span>
+                                            </div>
+
+                                            <div class="fw-pricing-row">
+                                                <span>$64</span>
+                                                <small>per month</small>
+                                            </div>
+
+                                            <div class="fw-button-row">
+                                                <a href="#" target="_self" class="btn btn-secondary">Free Trial</a>
+                                            </div>
+
+                                            <div class="fw-default-row">Lorem ipsum dolor</div>
+                                            <div class="fw-default-row">Pellentesque scelerisque</div>
+                                            <div class="fw-default-row">Morbi eu sagittis</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="fw-package-wrap col-md-6 highlight-col ">
+                                        <div class="fw-package">
+                                            <div class="fw-heading-row">
+                                                <span>Gold</span>
+                                            </div>
+
+                                            <div class="fw-pricing-row">
+                                                <span>$128</span>
+                                                <small>per month</small>
+                                            </div>
+
+                                            <div class="fw-button-row">
+                                                <a href="#" target="_self" class="btn btn-primary">Free Trial</a>
+                                            </div>
+
+                                            <div class="fw-default-row">Lorem ipsum dolor</div>
+                                            <div class="fw-default-row">Pellentesque scelerisque</div>
+                                            <div class="fw-default-row">Morbi eu sagittis</div>
+                                            <div class="fw-default-row">Donec non diam</div>
+                                            <div class="fw-default-row"></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Pricing -->
 
                         <div class="white-space-50"></div>
 
@@ -287,7 +494,7 @@
                                 <div class="fun-fact gray-default">
                                     <i class="lnr lnr-heart"></i>
                                     <h4>Happy Clients</h4>
-                                    <span class="fun-fact-block-value">20</span>
+                                    <span class="fun-fact-block-value">578</span>
                                     <span class="fun-fact-block-text"></span>
                                 </div>
                             </div>
@@ -305,7 +512,7 @@
                                 <div class="fun-fact gray-default">
                                     <i class="lnr lnr-star"></i>
                                     <h4>Awards Won</h4>
-                                    <span class="fun-fact-block-value">4</span>
+                                    <span class="fun-fact-block-value">15</span>
                                     <span class="fun-fact-block-text"></span>
                                 </div>
                             </div>
@@ -334,25 +541,25 @@
                                 <div class="timeline timeline-second-style clearfix">
                                     <div class="timeline-item clearfix">
                                         <div class="left-part">
-                                            <h5 class="item-period">2011-2019</h5>
-                                            <span class="item-company">BEHS 2 Yankin</span>
+                                            <h5 class="item-period">2008</h5>
+                                            <span class="item-company">University of Studies</span>
                                         </div>
                                         <div class="divider"></div>
                                         <div class="right-part">
-                                            <h4 class="item-title">High School</h4>
-                                            <p>I passed the matriculation from this school and got a lot of fun.</p>
+                                            <h4 class="item-title">Frontend Development</h4>
+                                            <p>Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis ante.</p>
                                         </div>
                                     </div>
 
                                     <div class="timeline-item clearfix">
                                         <div class="left-part">
-                                            <h5 class="item-period">2019-2022</h5>
-                                            <span class="item-company">University of Dagon (Computer Science)</span>
+                                            <h5 class="item-period">2007</h5>
+                                            <span class="item-company">University of Studies</span>
                                         </div>
                                         <div class="divider"></div>
                                         <div class="right-part">
-                                            <h4 class="item-title">BACHELOR OF COMPUTER SCIENCE</h4>
-                                            <p>I attended computer science major from dagon university and I left school because of country situation. </p>
+                                            <h4 class="item-title">Graphic Design</h4>
+                                            <p>Aliquam tincidunt malesuada tortor vitae iaculis. In eu turpis iaculis, feugiat risus quis, aliquet urna. Quisque fringilla mollis risus, eu pulvinar dolor.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -366,37 +573,37 @@
                                 <div class="timeline timeline-second-style clearfix">
                                     <div class="timeline-item clearfix">
                                         <div class="left-part">
-                                            <h5 class="item-period">2020 - 2021</h5>
-                                            <span class="item-company">Yangon Handmade Creations</span>
+                                            <h5 class="item-period">2016 - Current</h5>
+                                            <span class="item-company">Google</span>
                                         </div>
                                         <div class="divider"></div>
                                         <div class="right-part">
-                                            <h4 class="item-title">ASSISTANT EXECUTIVE</h4>
-                                            <p>I served customer complain, management labours, orders management and income outcome management.</p>
+                                            <h4 class="item-title">Lead Ui/Ux Designer</h4>
+                                            <p>Praesent dignissim sollicitudin justo, sed elementum quam lacinia quis. Phasellus eleifend tristique posuere. Sed vitae dui nec magna.</p>
                                         </div>
                                     </div>
 
                                     <div class="timeline-item clearfix">
                                         <div class="left-part">
-                                            <h5 class="item-period">2021 Sep - 2021 Nov</h5>
+                                            <h5 class="item-period">2013 - 2016</h5>
                                             <span class="item-company">Adobe</span>
                                         </div>
                                         <div class="divider"></div>
                                         <div class="right-part">
-                                            <h4 class="item-title">Thuma Organization</h4>
-                                            <p>We start to make website with team and got a lot knowledge within three months.</p>
+                                            <h4 class="item-title">Senior Ui/Ux Designer</h4>
+                                            <p>Maecenas tempus faucibus rutrum. Duis eu aliquam urna. Proin vitae nulla tristique, ornare felis id, congue libero. Nam volutpat euismod quam.</p>
                                         </div>
                                     </div>
 
                                     <div class="timeline-item clearfix">
                                         <div class="left-part">
-                                            <h5 class="item-period">2020 - present</h5>
-                                            <span class="item-company">Freelance</span>
+                                            <h5 class="item-period">2011 - 2013</h5>
+                                            <span class="item-company">Google</span>
                                         </div>
                                         <div class="divider"></div>
                                         <div class="right-part">
-                                            <h4 class="item-title">Web developer</h4>
-                                            <p>I can lead in the design, development, and implementation of the graphic, layout, and production communication materials</p>
+                                            <h4 class="item-title">Junior Ui/Ux Designer</h4>
+                                            <p>Duis mollis nunc quis quam viverra venenatis. Nulla nulla arcu, congue vitae nunc ac, sodales ultricies diam. Nullam justo leo, tincidunt sit amet.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -427,7 +634,7 @@
                                                 aria-valuemax="100"
                                             ></div>
                                         </div>
-                                @endforeach
+                                    @endforeach
                                 </div>
                                 <!-- End of Design Skills -->
 
@@ -438,86 +645,86 @@
                                     <h3>Coding <span>Skills</span></h3>
                                 </div>
 
-                             <div class="skills-info skills-second-style">
+                                <div class="skills-info skills-second-style">
                                     <!-- Skill 5 -->
                                     @foreach($codingSkills as $c)
                                         <div class="skill clearfix">
                                             <h4>{{$c->name}}</h4>
                                             <div class="skill-value">{{$c->percentage}}%</div>
                                         </div>
-                                    <div class="progress skill-container" style="height: 10px" m>
-                                        <div
-                                            class="progress-bar skill-percentage"
-                                            role="progressbar"
-                                            style="width: {{$c->percentage}}%;"
-                                            aria-valuenow="25"
-                                            aria-valuemin="0"
-                                            aria-valuemax="100"
-                                        ></div>
-                                    </div>
-                                    @endforeach
+                                        <div class="progress skill-container" style="height: 10px" m>
+                                            <div
+                                                class="progress-bar skill-percentage"
+                                                role="progressbar"
+                                                style="width: {{$c->percentage}}%;"
+                                                aria-valuenow="25"
+                                                aria-valuemin="0"
+                                                aria-valuemax="100"
+                                            ></div>
+                                        </div>
+                                @endforeach
 
                                 <!-- End of Coding Skills -->
 
-                                <div class="white-space-10"></div>
+                                    <div class="white-space-10"></div>
 
-                                <!-- Knowledges -->
-                                <div class="block-title">
-                                    <h3>Knowledges</h3>
-                                </div>
-
-                                <ul class="knowledges">
-                                    @foreach($knowledges as $k)
-                                    <li>{{$k->name}}</li>
-                                    @endforeach
-                                </ul>
-                                <!-- End of Knowledges -->
-                            </div>
-                            <!-- End of Skills & Certificates -->
-                        </div>
-
-                        <div class="white-space-50"></div>
-
-                        <!-- Certificates -->
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12">
-                                <div class="block-title">
-                                    <h3>Certificates</h3>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <!-- Certificate 1 -->
-                            @foreach($certificates as $c)
-                            <div class="col-xs-12 col-sm-6">
-                                <div class="certificate-item clearfix">
-                                    <div class="certi-logo">
-                                        <img src="{{Storage::url($c->image)}}" alt="logo">
+                                    <!-- Knowledges -->
+                                    <div class="block-title">
+                                        <h3>Knowledges</h3>
                                     </div>
 
-                                    <div class="certi-content">
-                                        <div class="certi-title">
-                                            <h4>{{$c->name}}</h4>
-                                        </div>
-                                        <div class="certi-id">
-                                            <span>Membership ID: XXXX</span>
-                                        </div>
-                                        <div class="certi-date">
-                                            <span>19 April 2018</span>
-                                        </div>
-                                        <div class="certi-company">
-                                            <span>qq</span>
-                                        </div>
+                                    <ul class="knowledges">
+                                        @foreach($knowledges as $k)
+                                            <li>{{$k->name}}</li>
+                                        @endforeach
+                                    </ul>
+                                    <!-- End of Knowledges -->
+                                </div>
+                                <!-- End of Skills & Certificates -->
+                            </div>
+
+                            <div class="white-space-50"></div>
+
+                            <!-- Certificates -->
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12">
+                                    <div class="block-title">
+                                        <h3>Certificates</h3>
                                     </div>
                                 </div>
                             </div>
-                        @endforeach
+
+                            <div class="row">
+                                <!-- Certificate 1 -->
+                                @foreach($certificates as $c)
+                                    <div class="col-xs-12 col-sm-6">
+                                        <div class="certificate-item clearfix">
+                                            <div class="certi-logo">
+                                                <img src="{{Storage::url($c->image)}}" alt="logo">
+                                            </div>
+
+                                            <div class="certi-content">
+                                                <div class="certi-title">
+                                                    <h4>{{$c->name}}</h4>
+                                                </div>
+                                                <div class="certi-id">
+                                                    <span>Membership ID: XXXX</span>
+                                                </div>
+                                                <div class="certi-date">
+                                                    <span>19 April 2018</span>
+                                                </div>
+                                                <div class="certi-company">
+                                                    <span>qq</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            @endforeach
                             <!-- End of Certificate 1 -->
 
+                            </div>
+                            <!-- End of Certificates -->
                         </div>
-                        <!-- End of Certificates -->
-                    </div>
                 </section>
                 <!-- End of Resume Subpage -->
 
@@ -652,28 +859,26 @@
                                 <div class="blog-masonry two-columns clearfix">
 
                                     <!-- Blog Post 1 -->
-                                    @foreach($blogs as $b)
-                                    <div class="item post-1">
-                                        <div class="blog-card">
-                                            <div class="media-block">
-                                                <div class="category">
-                                                    <a href="#blog-details" title=""></a>
+                                        <div class="item post-1">
+                                            <div class="blog-card">
+                                                <div class="media-block">
+                                                    <div class="category">
+                                                        <a href="{{route('blog.destroy',$b->id)}}" title="">{{$b->category->title}}</a>
+                                                    </div>
+                                                    <a href="{{route('blog.destroy',$b->id)}}">
+                                                        <img src="{{Storage::url($b->image)}}" height="200px" class="size-blog-masonry-image-two-c" alt="Why I Switched to Sketch For UI Design" title="" />
+                                                        <div class="mask"></div>
+                                                    </a>
                                                 </div>
-                                                <a href="#blog-details">
-                                                    <img src="{{Storage::url($b->image)}}" height="200px" class="size-blog-masonry-image-two-c" alt="Why I Switched to Sketch For UI Design" title="" />
-                                                    <div class="mask"></div>
-                                                </a>
-                                            </div>
-                                            <div class="post-info">
-                                                <div class="post-date">05 Mar 2020</div>
-                                                <a href="#blog-details">
-                                                    <h4 class="blog-item-title">{{$b->name}}</h4>
-                                                </a>
+                                                <div class="post-info">
+                                                    <div class="post-date">05 Mar 2020</div>
+                                                    <a href="{{route('blog.destroy',$b->id)}}">
+                                                        <h4 class="blog-item-title">{{$b->title}}</h4>
+                                                    </a>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                @endforeach
-                                    <!-- End of Blog Post 1 -->
+                                <!-- End of Blog Post 1 -->
 
                                 </div>
                             </div>
@@ -683,37 +888,35 @@
 
                 </section>
                 <!-- End of Blog Subpage -->
-{{--                blog Detail--}}
-{{--                <section data-id="blog-details" class="animated-section">--}}
-{{--                    <div class="page-title">--}}
-{{--                        <h2>Blog</h2>--}}
-{{--                    </div>--}}
-{{--                    @foreach($blogs as $b)--}}
-{{--                    <div class="section-content">--}}
-{{--                        <div class="row">--}}
-{{--                            <div class="col-xs-12 col-sm-12">--}}
-{{--                                <div class="blog-masonry two-columns clearfix">--}}
-{{--                                    <div>--}}
-{{--                                        <img--}}
-{{--                                            src="{{Storage::url($b->image)}}"--}}
-{{--                                            class="img-fluid hover-shadow"--}}
-{{--                                            alt=""--}}
-{{--                                        />--}}
-{{--                                    </div>--}}
-{{--                                    <p class="pt-3" style="color: #0ba376"><i class="fas fa-user-edit"></i>Name - <span style="color: #0ba376">Si Thu Myo</span> </p>--}}
-{{--                                    <p class="" style="color: #0ba376"><i class="fas fa-book"></i>Category - <span style="color: #0ba376">{{$b->category->title}}</span> </p>--}}
-{{--                                    <p class="" style="color: #0ba376"><i class="fas fa-clock"></i>Category - <span style="color: #0ba376">21 Nov 2021</span> </p>--}}
-{{--                                    <p class="text-light">{{$b->description}}</p>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                    @endforeach--}}
-{{--                </section>--}}
+                {{--                blog Detail--}}
+                <section data-id="blog-details" class="animated-section">
+                    <div class="page-title">
+                        <h2>Blog</h2>
+                    </div>
+                        <div class="section-content">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12">
+                                    <div class="blog-masonry two-columns clearfix">
+                                        <div>
+                                            <img
+                                                src="{{Storage::url($blog->image)}}"
+                                                class="img-fluid hover-shadow"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <p class="pt-3" style="color: #0ba376"><i class="fas fa-user-edit"></i>Name - <span style="color: #0ba376">Si Thu Myo</span> </p>
+                                        <p class="" style="color: #0ba376"><i class="fas fa-book"></i>Category - <span style="color: #0ba376">{{$blog->category->title}}</span> </p>
+                                        <p class="" style="color: #0ba376"><i class="fas fa-clock"></i>Category - <span style="color: #0ba376">21 Nov 2021</span> </p>
+                                        <p class="text-light">{{$blog->description}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </section>
 
-{{--                End blog Detail--}}
+            {{--                End blog Detail--}}
 
-                <!-- Contact Subpage -->
+            <!-- Contact Subpage -->
                 <section data-id="contact" class="animated-section">
                     <div class="page-title">
                         <h2>Contact</h2>

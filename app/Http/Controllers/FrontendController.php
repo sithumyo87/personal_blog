@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Blog;
+use App\Models\Category;
 use App\Models\Certificate;
 use App\Models\CodingSkill;
 use App\Models\DesignSkill;
@@ -15,6 +17,8 @@ class FrontendController extends Controller
         $designSkills = DesignSkill::all();
         $knowledges = Knowledge::all();
         $certificates = Certificate::all();
-        return view('Frontend.index')->with(compact('codingSkills','designSkills','knowledges','certificates'));
+        $blogs = Blog::all();
+        $categories = Category::all();
+        return view('Frontend.index')->with(compact('codingSkills','designSkills','knowledges','certificates','blogs','categories'));
     }
 }
