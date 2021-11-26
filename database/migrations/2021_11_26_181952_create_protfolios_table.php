@@ -16,6 +16,7 @@ class CreateProtfoliosTable extends Migration
         Schema::create('protfolios', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->string('url');
             $table->string('image');
             $table->timestamps();
         });

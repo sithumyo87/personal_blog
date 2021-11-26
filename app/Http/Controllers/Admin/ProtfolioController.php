@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\Protfolio;
 use Illuminate\Http\Request;
 
 class ProtfolioController extends Controller
@@ -14,7 +15,8 @@ class ProtfolioController extends Controller
      */
     public function index()
     {
-        //
+        $portfolios = Protfolio::paginate(5);
+        return view('admin.Portfolio.index',compact('portfolios'));
     }
 
     /**
@@ -24,7 +26,7 @@ class ProtfolioController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.Portfolio.create');
     }
 
     /**
@@ -35,7 +37,13 @@ class ProtfolioController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $path = $request->image->store('public/portfolio');
+        Protfolio::create([
+            'name'=>$request->name,
+            'url'=>$request->url,
+            'image'=>$path,
+        ]);
+        return redirect()->route('portfolio.index')->with('msg','successfully Inserted');
     }
 
     /**
@@ -57,7 +65,8 @@ class ProtfolioController extends Controller
      */
     public function edit($id)
     {
-        //
+        $portfolio = Protfolio::find($id);
+        return view('admin.Portfolio.edit',compact('portfolio'));
     }
 
     /**
@@ -69,7 +78,17 @@ class ProtfolioController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $portfolio = Protfolio::find($id);
+        if($request->has('image')){
+            $path = $request->image->store('public/portfolio');
+        }else{
+            $path = $portfolio->image;
+        }
+        $portfolio->name = $request->name;
+        $portfolio->url = $request->url;
+        $portfolio->image = $path;
+        $portfolio->save();
+        return redirect()->route('portfolio.index')->with('msg','Successfully Updated');
     }
 
     /**
@@ -80,6 +99,8 @@ class ProtfolioController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $portfolio = Protfolio::find($id);
+        $portfolio->delete();
+        return redirect()->route('portfolio.index')->with('delmsg','Successfully Deleted');
     }
 }

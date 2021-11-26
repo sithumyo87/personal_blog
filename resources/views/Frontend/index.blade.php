@@ -13,13 +13,13 @@
     <link rel="shortcut icon" href="favicon.ico">
 
 
-    <link rel="stylesheet" href="css/reset.css" type="text/css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
-    <link rel="stylesheet" href="css/animations.css" type="text/css">
-    <link rel="stylesheet" href="css/perfect-scrollbar.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="{{asset('css/reset.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('css/bootstrap-grid.min.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('css/animations.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('css/perfect-scrollbar.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('css/owl.carousel.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('css/main.css')}}" type="text/css">
     <!-- Font Awesome -->
     <link
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
@@ -62,8 +62,8 @@
                     <img src="img/profile.jpg" alt="Alex Smith">
                 </div>
                 <div class="header-titles">
-                    <h2>Alex Smith</h2>
-                    <h4>Web Designer</h4>
+                    <h2>Si Thu Myo</h2>
+                    <h4>Web Developer</h4>
                 </div>
             </div>
 
@@ -122,7 +122,7 @@
                 <a href="img/cvpdf.pdf" target="_blank" class="btn btn-primary" download>Download CV</a>
             </div>
 
-            <div class="copyrights">© 2020 All rights reserved.</div>
+            <div class="copyrights">© 2021 All rights reserved.</div>
         </header>
 
         <!-- Mobile Navigation -->
@@ -149,14 +149,17 @@
                         <div class="row">
                             <div class="col-sm-12 col-md-12 col-lg-12">
                                 <div class="title-block">
-                                    <h2>Alex Smith</h2>
+                                    <h2>Si Thu Myo</h2>
                                     <div class="owl-carousel text-rotation">
                                         <div class="item">
-                                            <div class="sp-subtitle">Web Designer</div>
+                                            <div class="sp-subtitle">Web Developer</div>
                                         </div>
 
                                         <div class="item">
-                                            <div class="sp-subtitle">Frontend-developer</div>
+                                            <div class="sp-subtitle">Andriod Developer</div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="sp-subtitle">Web Designer</div>
                                         </div>
                                     </div>
                                 </div>
@@ -205,7 +208,7 @@
 
                                         <li>
                                             <span class="title">Phone</span>
-                                            <span class="value">+0123 123 456 789</span>
+                                            <span class="value">+959 779 795 112</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -507,7 +510,7 @@
                                             <span>19 April 2018</span>
                                         </div>
                                         <div class="certi-company">
-                                            <span>qq</span>
+                                            <span>USA</span>
                                         </div>
                                     </div>
                                 </div>
@@ -537,17 +540,15 @@
 
                                     <!-- Portfolio Grid -->
                                     <div class="portfolio-grid three-columns">
-
-                                        <figure class="item lbaudio" data-groups='["category_all", "category_soundcloud"]'>
+                                    @foreach($portfolios as $p)
+                                        <figure class="item " data-groups='["category_all", "category_soundcloud"]'>
                                             <div class="portfolio-item-img">
-                                                <img src="img/portfolio/1.jpg" alt="SoundCloud Audio" title="" />
-                                                <a href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/221650664&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true" class="lightbox mfp-iframe" title="SoundCloud Audio"></a>
+                                                <img src="{{Storage::url($p->image)}}" height="200px" />
+                                                <a href="{{$p->url}}"></a>
                                             </div>
-
-                                            <i class="fa fa-volume-up"></i>
-                                            <h4 class="name">SoundCloud Audio</h4>
-                                            <span class="category">SoundCloud</span>
+                                            <h4 class="name">{{$p->name}}</h4>
                                         </figure>
+                                        @endforeach
                                     </div>
                                 </div>
                                 <!-- End of Portfolio Content -->

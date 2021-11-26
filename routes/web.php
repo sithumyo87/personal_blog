@@ -11,19 +11,24 @@ use App\Http\Controllers\Admin\ProtfolioController;
 
 
 Route::get('/', [\App\Http\Controllers\FrontendController::class,'index']);
-Route::get('/searchByCategory/{cat_id}',[\App\Http\Controllers\FrontendController::class,'searchByCategory']);
 
-
-//Skills
-Route::resource('codingskill', CodingSkillController::class);
-Route::resource('designskill', DesignSkillController::class);
+Route::group(['middleware'=>'admin','auth'],function(){
+    //Skills
+    Route::resource('codingskill', CodingSkillController::class);
+    Route::resource('designskill', DesignSkillController::class);
 //Knowledge
-Route::resource('knowledge', KnowledgeController::class);
+    Route::resource('knowledge', KnowledgeController::class);
 //certificate
-Route::resource('certificate', CertificateController::class);
+    Route::resource('certificate', CertificateController::class);
 //Blog
-Route::resource('blog',BlogController::class);
+    Route::resource('blog',BlogController::class);
 //Category
-Route::resource('category', CategoryController::class);
+    Route::resource('category', CategoryController::class);
 //protfolio
-Route::resource('category', ProtfolioController::class);
+    Route::resource('portfolio', ProtfolioController::class);
+});
+
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
