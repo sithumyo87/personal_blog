@@ -47,7 +47,7 @@
                        <form action="{{route('knowledge.destroy',$k->id)}}" method="post">
                            @csrf
                            @method('DELETE')
-                       <a href="{{route('knowledge.edit',$k->id)}}" class="btn btn-sm btn-success"></i>Edit</a>
+                       <a href="{{route('knowledge.edit',$k->id)}}" class="btn btn-sm btn-success"><i class="fas fa-edit"></i>Edit</a>
                            <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure to delete?')"><i class="fas fa-trash-alt"></i> Delete</button>
                        </form>
                    </td>

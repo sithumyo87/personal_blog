@@ -50,12 +50,12 @@
                    </td>
                    <td>{{$b->name}} </td>
                    <td>{{$b->description}}</td>
-                   <td>{{$b->category->title}}</td>
+                   <td>{{$b->category->name}}</td>
                    <td>
                        <form action="{{route('blog.destroy',$b->id)}}" method="post">
                            @csrf
                            @method('DELETE')
-                       <a href="{{route('blog.edit',$b->id)}}" class="btn btn-sm btn-success"></i>Edit</a>
+                       <a href="{{route('blog.edit',$b->id)}}" class="btn btn-sm btn-success"><i class="fas fa-edit"></i>Edit</a>
                            <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure to delete?')"><i class="fas fa-trash-alt"></i> Delete</button>
                        </form>
                    </td>

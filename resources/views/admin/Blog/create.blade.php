@@ -4,7 +4,7 @@
     <div class="card mt-5 p-4">
         <div class="card-header bg-primary text-white"><h4>Blog Create Form</h4></div>
         <div class="card-body">
-            <form action="{{route('blog.store')}}" method="post" >
+            <form action="{{route('blog.store')}}" method="post" enctype="multipart/form-data">
                 @csrf
                 @foreach($errors->all() as $error)
                     <div class="alert alert-dismissible fade show alert-danger" role="alert"  id="customxD">

@@ -3,11 +3,9 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use App\Models\Blog;
-use App\Models\Category;
 use Illuminate\Http\Request;
 
-class BlogController extends Controller
+class ProtfolioController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,8 +14,7 @@ class BlogController extends Controller
      */
     public function index()
     {
-        $blogs = Blog::paginate(4);
-        return view('admin.Blog.index',compact('blogs'));
+        //
     }
 
     /**
@@ -27,8 +24,7 @@ class BlogController extends Controller
      */
     public function create()
     {
-        $categories = Category::all();
-        return view('admin.Blog.create',compact('categories'));
+        //
     }
 
     /**
@@ -39,14 +35,7 @@ class BlogController extends Controller
      */
     public function store(Request $request)
     {
-        $path = $request->image->store('public/blog_image');
-        $blog = Blog::create([
-            'title'=>$request->title,
-            'description'=>$request->description,
-            'category_id'=>$request->category_id,
-            'image'=>$path,
-        ]);
-        return redirect()->route('blog.index')->with('msg','Successfully Inserted');
+        //
     }
 
     /**
@@ -57,7 +46,7 @@ class BlogController extends Controller
      */
     public function show($id)
     {
-
+        //
     }
 
     /**
@@ -68,10 +57,7 @@ class BlogController extends Controller
      */
     public function edit($id)
     {
-        $blog = Blog::find($id);
-     $categories = Category::all();
-
-        return view('admin.Blog.edit',compact('blog','categories'));
+        //
     }
 
     /**
@@ -83,19 +69,7 @@ class BlogController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $blog = Blog::find($id);
-
-        if($request->has('image')){
-            $path = $request->image->store('public/blog_image');
-        }else{
-            $path = $blog->image;
-        }
-        $blog->title = $request->title;
-        $blog->description = $request->description;
-        $blog->category_id = $request->category_id;
-        $blog->image = $path;
-        $blog->save();
-        return redirect()->route('blog.index')->with('msg','Successfully Updated');
+        //
     }
 
     /**
@@ -106,8 +80,6 @@ class BlogController extends Controller
      */
     public function destroy($id)
     {
-        $blog = Blog::find($id);
-        $blog->delete();
-        return redirect()->route('blog.index')->with('delmsg','Successfully Deleted');
+        //
     }
 }

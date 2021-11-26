@@ -49,7 +49,7 @@
                        <form action="{{route('codingskill.destroy',$codingskill->id)}}" method="post">
                            @csrf
                            @method('DELETE')
-                       <a href="{{route('codingskill.edit',$codingskill->id)}}" class="btn btn-sm btn-success"></i>Edit</a>
+                       <a href="{{route('codingskill.edit',$codingskill->id)}}" class="btn btn-sm btn-success"><i class="fas fa-edit"></i>Edit</a>
                            <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure to delete?')"><i class="fas fa-trash-alt"></i> Delete</button>
                        </form>
                    </td>
