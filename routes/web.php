@@ -12,7 +12,7 @@ use App\Http\Controllers\Admin\ProtfolioController;
 
 Route::get('/', [\App\Http\Controllers\FrontendController::class,'index']);
 
-Route::group(['middleware'=>'admin','auth'],function(){
+Route::group(['prefix'=>'admin','middleware'=>'auth'],function(){
     //Skills
     Route::resource('codingskill', CodingSkillController::class);
     Route::resource('designskill', DesignSkillController::class);

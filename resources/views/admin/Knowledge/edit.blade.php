@@ -2,7 +2,7 @@
 @section('title','Coding Skill')
 @section('content')
     <div class="card mt-5 p-4">
-        <div class="card-header bg-primary text-white"><h4>Edit Skill Crate Form</h4></div>
+        <div class="card-header bg-primary text-white"><h4>Edit Knowledge Create Form</h4></div>
         <div class="card-body">
             <form action="{{route('knowledge.update',$knowledge->id)}}" method="post">
                 @method('PUT')

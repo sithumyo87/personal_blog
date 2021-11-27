@@ -13,13 +13,13 @@
     <link rel="shortcut icon" href="favicon.ico">
 
 
-    <link rel="stylesheet" href="{{asset('css/reset.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{asset('css/bootstrap-grid.min.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{asset('css/animations.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{asset('css/perfect-scrollbar.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{asset('css/owl.carousel.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{asset('css/main.css')}}" type="text/css">
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
+    <link rel="stylesheet" href="css/animations.css" type="text/css">
+    <link rel="stylesheet" href="css/perfect-scrollbar.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
     <!-- Font Awesome -->
     <link
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
@@ -651,21 +651,21 @@
                             <div class="col-xs-12 col-sm-4">
                                 <div class="lm-info-block gray-default">
                                     <i class="lnr lnr-map-marker"></i>
-                                    <h4>San Francisco</h4>
+                                    <h4>Myanmar</h4>
                                     <span class="lm-info-block-value"></span>
                                     <span class="lm-info-block-text"></span>
                                 </div>
 
                                 <div class="lm-info-block gray-default">
                                     <i class="lnr lnr-phone-handset"></i>
-                                    <h4>415-832-2000</h4>
+                                    <h4>+959 779 795 112</h4>
                                     <span class="lm-info-block-value"></span>
                                     <span class="lm-info-block-text"></span>
                                 </div>
 
                                 <div class="lm-info-block gray-default">
                                     <i class="lnr lnr-envelope"></i>
-                                    <h4><a href="https://lmpixels.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="3c5d5059447c59445d514c5059125f5351">[email&#160;protected]</a></h4>
+                                    <h4>sithumyo87@gmail.com</h4>
                                     <span class="lm-info-block-value"></span>
                                     <span class="lm-info-block-text"></span>
                                 </div>
@@ -685,7 +685,7 @@
                             <div class="col-xs-12 col-sm-8">
                                 <div id="map" class="map">
                                     <div class="lmpixels-map">
-                                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=San%20Francisco%2C%20S601%20Townsend%20Street%2C%20California%2C%20USA&amp;amp;t=m&amp;amp;z=16&amp;amp;output=embed&amp;amp;iwloc=near&amp;output=embed"></iframe>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7637.193524100519!2d96.17386660000003!3d16.8463489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smm!4v1638002820655!5m2!1sen!2smm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                                     </div>
                                 </div>
                                 <div class="block-title">

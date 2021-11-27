@@ -2,7 +2,7 @@
 @section('title','Coding Skill')
 @section('content')
     <div class="card mt-5 p-4">
-        <div class="card-header bg-primary text-white"><h4>Edit Certificate Form</h4></div>
+        <div class="card-header bg-primary text-white"><h4>Edit Category Form</h4></div>
         <div class="card-body">
             <form action="{{route('category.update',$category->id)}}" method="post" enctype="multipart/form-data">
                 @method('PUT')
