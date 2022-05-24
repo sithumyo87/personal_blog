@@ -180,7 +180,7 @@
                         <!-- Personal Information -->
                         <div class="row">
                             <div class="col-xs-12 col-sm-7">
-                                <p>I am Si Thu Myo and I attended Computer Science Major From Dagon University. I learned web development since high school and I really interested in software engineering. I also worked as a assistant executive in yangon handmade creations and I got a lot of experiences within one year. I also got internship at Thuma Organization and served as a web developer over 3 months. </p>
+                                <p>I am Si Thu Myo and I attended Computer Science Major From Dagon University. I learned web development since high school and I really interested in software engineering. I also worked as a assistant executive in yangon handmade creations and I got a lot of experiences within one year. I also got internship at Thuma Organization and served as a web developer over 3 months. Now I am working as a developer at NextHop Co.LTd. </p>
                             </div>
 
                             <div class="col-xs-12 col-sm-5">
@@ -188,7 +188,7 @@
                                     <ul>
                                         <li>
                                             <span class="title">Age</span>
-                                            <span class="value">19</span>
+                                            <span class="value">21</span>
                                         </li>
 
                                         <li>
@@ -355,7 +355,7 @@
                                         <div class="divider"></div>
                                         <div class="right-part">
                                             <h4 class="item-title">BACHELOR OF COMPUTER SCIENCE</h4>
-                                            <p>I attended computer science major from dagon university and I left school because of country situation. </p>
+                                            <p>I attended computer science major from dagon university. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -399,7 +399,7 @@
                                         <div class="divider"></div>
                                         <div class="right-part">
                                             <h4 class="item-title">Web developer</h4>
-                                            <p>I can lead in the design, development, and implementation of the graphic, layout, and production communication materials</p>
+                                            <p>I am working as a web developer and manage for both backend and frontend at Nexthop Co.Ltd.I can lead in the design, development, and implementation of the graphic, layout, and production communication materials</p>
                                         </div>
                                     </div>
                                 </div>
