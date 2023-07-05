@@ -23,4 +23,9 @@ class FrontendController extends Controller
         $portfolios = Protfolio::all();
         return view('Frontend.index',compact('codingSkills','designSkills','knowledges','certificates','blogs','categories','portfolios'));
     }
+
+    public function blog_detail($id){
+        $blog = Blog::find($id);
+        return view('Frontend.blog_detail',compact('blog'));
+    }
 }

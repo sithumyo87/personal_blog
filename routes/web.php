@@ -10,7 +10,8 @@ use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\Admin\ProtfolioController;
 
 
-Route::get('/', [\App\Http\Controllers\FrontendController::class,'index']);
+Route::get('/', [\App\Http\Controllers\FrontendController::class,'index'])->name('index');
+Route::get('/blog-details/{id}', [App\Http\Controllers\FrontendController::class, 'blog_detail'])->name('blog_detail');
 
 Route::group(['prefix'=>'admin','middleware'=>'auth'],function(){
     //Skills
@@ -32,3 +33,4 @@ Route::group(['prefix'=>'admin','middleware'=>'auth'],function(){
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+

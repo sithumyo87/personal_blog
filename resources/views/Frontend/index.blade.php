@@ -104,10 +104,6 @@
                         <span class="link-text">Contact</span>
                     </a>
                 </li>
-                <li>
-                    <a href="#blog-details" class="nav-anim">
-                    </a>
-                </li>
             </ul>
 
             <div class="social-links">
@@ -122,7 +118,7 @@
                 <a href="img/cvpdf.pdf" target="_blank" class="btn btn-primary" download>Download CV</a>
             </div>
 
-            <div class="copyrights">© 2021 All rights reserved.</div>
+            <div class="copyrights">Devloped By Dev Seeker</div>
         </header>
 
         <!-- Mobile Navigation -->
@@ -583,7 +579,7 @@
                                                 <div class="category">
                                                     <a href="#" title="">{{$b->category->name}}</a>
                                                 </div>
-                                                <a href="#">
+                                                <a href="{{ url('/blog-details',['id' => $b->id]) }}">
                                                     <img src="{{Storage::url($b->image)}}" height="200px" class="size-blog-masonry-image-two-c" alt="Why I Switched to Sketch For UI Design" title="" />
                                                     <div class="mask"></div>
                                                 </a>
@@ -608,35 +604,35 @@
 
                 </section>
                 <!-- End of Blog Subpage -->
-{{--                blog Detail--}}
-{{--                <section data-id="blog-details" class="animated-section">--}}
-{{--                    <div class="page-title">--}}
-{{--                        <h2>Blog</h2>--}}
-{{--                    </div>--}}
-{{--                    @foreach($blogs as $b)--}}
-{{--                    <div class="section-content">--}}
-{{--                        <div class="row">--}}
-{{--                            <div class="col-xs-12 col-sm-12">--}}
-{{--                                <div class="blog-masonry two-columns clearfix">--}}
-{{--                                    <div>--}}
-{{--                                        <img--}}
-{{--                                            src="{{Storage::url($b->image)}}"--}}
-{{--                                            class="img-fluid hover-shadow"--}}
-{{--                                            alt=""--}}
-{{--                                        />--}}
-{{--                                    </div>--}}
-{{--                                    <p class="pt-3" style="color: #0ba376"><i class="fas fa-user-edit"></i>Name - <span style="color: #0ba376">Si Thu Myo</span> </p>--}}
-{{--                                    <p class="" style="color: #0ba376"><i class="fas fa-book"></i>Category - <span style="color: #0ba376">{{$b->category->title}}</span> </p>--}}
-{{--                                    <p class="" style="color: #0ba376"><i class="fas fa-clock"></i>Category - <span style="color: #0ba376">21 Nov 2021</span> </p>--}}
-{{--                                    <p class="text-light">{{$b->description}}</p>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                    @endforeach--}}
-{{--                </section>--}}
+               <!-- blog Detail
+                <section data-id="blog-details" class="animated-section">
+                    <div class="page-title">
+                        <h2>Blog</h2>
+                    </div>
+                    @foreach($blogs as $b)
+                    <div class="section-content">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12">
+                                <div class="blog-masonry two-columns clearfix">
+                                    <div>
+                                        <img
+                                            src="{{Storage::url($b->image)}}"
+                                            class="img-fluid hover-shadow"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <p class="pt-3" style="color: #0ba376"><i class="fas fa-user-edit"></i>Name - <span style="color: #0ba376">Si Thu Myo</span> </p>
+                                    <p class="" style="color: #0ba376"><i class="fas fa-book"></i>Category - <span style="color: #0ba376">{{$b->category->title}}</span> </p>
+                                    <p class="" style="color: #0ba376"><i class="fas fa-clock"></i>Category - <span style="color: #0ba376">21 Nov 2021</span> </p>
+                                    <p class="text-light">{{$b->description}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    @endforeach
+                </section> -->
 
-{{--                End blog Detail--}}
+                <!-- End blog Detail -->
 
                 <!-- Contact Subpage -->
                 <section data-id="contact" class="animated-section">
