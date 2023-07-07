@@ -8,10 +8,18 @@ use App\Http\Controllers\Admin\CertificateController;
 use App\Http\Controllers\Admin\BlogController;
 use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\Admin\ProtfolioController;
+use App\Http\Controllers\Frontend\HomeController;
 
 
-Route::get('/', [\App\Http\Controllers\FrontendController::class,'index'])->name('index');
+Route::get('/', [\App\Http\Controllers\FrontendController::class,'index'])->name('home');
+// Route::get('/home', [HomeController::class,'index'])->name('home');
+Route::get('/about', [App\Http\Controllers\FrontendController::class, 'about'])->name('about');
+Route::get('/resume', [App\Http\Controllers\FrontendController::class, 'resume'])->name('resume');
+Route::get('/portfolio', [App\Http\Controllers\FrontendController::class, 'portfolio'])->name('portfolio');
+Route::get('/contact', [App\Http\Controllers\FrontendController::class, 'contact'])->name('contact');
+Route::get('/blog', [App\Http\Controllers\FrontendController::class, 'blog'])->name('blog');
 Route::get('/blog-details/{id}', [App\Http\Controllers\FrontendController::class, 'blog_detail'])->name('blog_detail');
+Route::get('/searchByCategory/{id}', [App\Http\Controllers\FrontendController::class, 'blog_search_by_cat'])->name('blog_search_by_cat');
 
 Route::group(['prefix'=>'admin','middleware'=>'auth'],function(){
     //Skills
@@ -32,5 +40,5 @@ Route::group(['prefix'=>'admin','middleware'=>'auth'],function(){
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
